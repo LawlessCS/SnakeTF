@@ -20,7 +20,7 @@ function normalizeFitness() {
 	}
 
 	for (let i = 0; i < populationSize; i++) {
-		deadSnakes[i].fitnes /= sum;
+		deadSnakes[i].fitness /= sum;
 	}
 }
 
